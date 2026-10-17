@@ -10,7 +10,7 @@ function prepare(input,ref){
  const source=sources.includes(input.source)?input.source:'direct';
  if(!/^RPE-WEB-[a-f0-9-]{36}$/.test(ref))throw Error('Invalid inquiry reference.');
  const body=`RPE Services inquiry\nPreparation reference: ${ref}\nOffer: ${input.offer} — ${offers[input.offer]}\nSource code (customer-declared, not verified attribution): ${source}\nDisclosure: SERVICES-INQUIRY-1.0\nAcknowledgment: I reviewed the privacy notice and choose to send this inquiry to RPE. No partner sharing is authorized.\n\nQuestion:\n${message}\n\nThis reference identifies a prepared inquiry, not receipt, an application, an order or a sale. Please retain the case reference issued after actual receipt.`;
- return {ref,body,mailto:'mailto:contact@risingphoenixhq.com?'+new URLSearchParams({subject:`RPE Services inquiry [${ref}] ${input.offer}`,body}).toString()};
+ return {ref,body,mailto:'mailto:contact@risingphoenixhq.com?subject='+encodeURIComponent(`RPE Services inquiry [${ref}] ${input.offer}`)+'&body='+encodeURIComponent(body)};
 }
 if(typeof module!=='undefined')module.exports={prepare,offers,sources};
 if(!root.document)return;
