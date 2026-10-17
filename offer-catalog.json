@@ -1,0 +1,139 @@
+{
+  "version": "RPE-SERVICES-CATALOG-1.0",
+  "scope": "Editorial catalog metadata only; no entitlement, attribution, live availability or customer registry",
+  "review_date": "2026-10-17",
+  "offers": [
+    {
+      "offer_id": "TRAV-XTR",
+      "owning_system": "RPE_SERVICES",
+      "name": "XTR Pro 5G Wi-Fi Router",
+      "category": "connectivity",
+      "identity": "TRAVLFI",
+      "description": "XTR Pro 5G Wi-Fi Router \u2014 informational preview",
+      "destination_url": "xtr-pro-5g.html",
+      "supplier_information_url": "https://travlfi.com/products/travlfi-xtr-pro-5g-wi-fi-router",
+      "commercial_status": "INFORMATIONAL_PREVIEW",
+      "commercially_active": false,
+      "partner_approval": "UNVERIFIED",
+      "commission_terms": null,
+      "eligibility": "Not established; confirm applicable location and customer requirements before any commercial activation.",
+      "required_disclosures": [
+        "No live RPE ordering, approved referral or funding offer is established.",
+        "disclosure.html"
+      ],
+      "last_source_review": "2026-10-17",
+      "last_commercial_verification": null,
+      "product_fact_snapshot": "2026-10-15"
+    },
+    {
+      "offer_id": "TRAV-J5",
+      "owning_system": "RPE_SERVICES",
+      "name": "JourneyGo 5G Hotspot",
+      "category": "connectivity",
+      "identity": "TRAVLFI",
+      "description": "JourneyGo 5G Hotspot \u2014 informational preview",
+      "destination_url": "journeygo-5g.html",
+      "supplier_information_url": "https://travlfi.com/products/journeygo-5g-hotspot",
+      "commercial_status": "INFORMATIONAL_PREVIEW",
+      "commercially_active": false,
+      "partner_approval": "UNVERIFIED",
+      "commission_terms": null,
+      "eligibility": "Not established; confirm applicable location and customer requirements before any commercial activation.",
+      "required_disclosures": [
+        "No live RPE ordering, approved referral or funding offer is established.",
+        "disclosure.html"
+      ],
+      "last_source_review": "2026-10-17",
+      "last_commercial_verification": null,
+      "product_fact_snapshot": "2026-10-15"
+    },
+    {
+      "offer_id": "TRAV-J4",
+      "owning_system": "RPE_SERVICES",
+      "name": "JourneyGo 4G Hotspot",
+      "category": "connectivity",
+      "identity": "TRAVLFI",
+      "description": "JourneyGo 4G Hotspot \u2014 informational preview",
+      "destination_url": "journeygo-4g.html",
+      "supplier_information_url": "https://travlfi.com/products/new-journeygo-4g-lte-hotspot",
+      "commercial_status": "INFORMATIONAL_PREVIEW",
+      "commercially_active": false,
+      "partner_approval": "UNVERIFIED",
+      "commission_terms": null,
+      "eligibility": "Not established; confirm applicable location and customer requirements before any commercial activation.",
+      "required_disclosures": [
+        "No live RPE ordering, approved referral or funding offer is established.",
+        "disclosure.html"
+      ],
+      "last_source_review": "2026-10-17",
+      "last_commercial_verification": null,
+      "product_fact_snapshot": "2026-10-15"
+    },
+    {
+      "offer_id": "RPE-PBS",
+      "owning_system": "PBS",
+      "name": "Phoenix Business System",
+      "category": "business-services",
+      "identity": "PBS",
+      "description": "Phoenix Business System \u2014 self service preview",
+      "destination_url": "business-services.html",
+      "supplier_information_url": null,
+      "commercial_status": "SELF_SERVICE_PREVIEW",
+      "commercially_active": false,
+      "partner_approval": "NOT_APPLICABLE_RPE_PRODUCT",
+      "commission_terms": null,
+      "eligibility": "Not established; confirm applicable location and customer requirements before any commercial activation.",
+      "required_disclosures": [
+        "No live RPE ordering, approved referral or funding offer is established.",
+        "disclosure.html"
+      ],
+      "last_source_review": "2026-10-17",
+      "last_commercial_verification": null,
+      "product_fact_snapshot": null
+    },
+    {
+      "offer_id": "RPE-PNC",
+      "owning_system": "PNC",
+      "name": "Phoenix Nexus Capital",
+      "category": "business-financing",
+      "identity": "PNC",
+      "description": "Phoenix Nexus Capital \u2014 inquiry only",
+      "destination_url": "business-financing.html",
+      "supplier_information_url": null,
+      "commercial_status": "INQUIRY_ONLY",
+      "commercially_active": false,
+      "partner_approval": "NOT_APPLICABLE_RPE_PRODUCT",
+      "commission_terms": null,
+      "eligibility": "Not established; confirm applicable location and customer requirements before any commercial activation.",
+      "required_disclosures": [
+        "No live RPE ordering, approved referral or funding offer is established.",
+        "disclosure.html"
+      ],
+      "last_source_review": "2026-10-17",
+      "last_commercial_verification": null,
+      "product_fact_snapshot": null
+    },
+    {
+      "offer_id": "RPE-DIBANA",
+      "owning_system": "DIBANA",
+      "name": "DIBANA",
+      "category": "business-network",
+      "identity": "DIBANA",
+      "description": "DIBANA \u2014 introduction only",
+      "destination_url": "business-network.html",
+      "supplier_information_url": null,
+      "commercial_status": "INTRODUCTION_ONLY",
+      "commercially_active": false,
+      "partner_approval": "NOT_APPLICABLE_RPE_PRODUCT",
+      "commission_terms": null,
+      "eligibility": "Not established; confirm applicable location and customer requirements before any commercial activation.",
+      "required_disclosures": [
+        "No live RPE ordering, approved referral or funding offer is established.",
+        "disclosure.html"
+      ],
+      "last_source_review": "2026-10-17",
+      "last_commercial_verification": null,
+      "product_fact_snapshot": null
+    }
+  ]
+}
