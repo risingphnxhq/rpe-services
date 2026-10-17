@@ -27,3 +27,11 @@ Playwright is installed in the construction environment, but Chromium is absent.
 Prime CSE reviews this bounded implementation before the next batch. CATE independently checks desktop/mobile navigation, keyboard focus/order, existing catalog filtering/comparison/inquiry behavior, status labels and the lack of unapproved commercial actions. Keep existing storefront behavior available throughout.
 
 No Supabase schema/policy changes. No newly approved referral destination or earned revenue established. Batch 2 requires actual partner approval, verified referral URL and required disclosures. Systems PSC packet retrieval/receiving acknowledgment is pending connection access; the pasted Founder-transferred construction order provided this proposal's scope. This document is not receiving acknowledgment or CATE acceptance.
+
+## Continued construction — inquiry preparation
+
+Adds inquiry.html and inquiry.js: offer selection, an explicit privacy acknowledgment, a preparation reference, a reviewable text preview and an encoded email draft to the existing contact channel. No API, persistent browser storage, tracker, automatic send, registration, application or partner sharing. Edits invalidate the prior draft link until prepared again. Query parameters accept only listed offer IDs and source codes; arbitrary campaign query strings are discarded. Existing receiving operations remain responsible for actual receipt and case references.
+
+Catalog entries now carry inquiry attribution metadata, explicitly customer-declared and not verified conversion evidence. The original help page receives one inquiry link; its remaining content is preserved. Source checks now cover fifteen pages (32 page/catalog/preservation checks). `node tests/check_inquiry.cjs` validates consent, invalid inputs, draft encoding, status semantics and catalog consistency. Browser testing remains blocked: both Chromium downloads returned invalid ZIP archives, and the Cloudflare browser-rendering API returned authentication error. No independent CATE claim.
+
+See commercial-evidence-extension.md for the concrete minimal registry/event proposal and deployment dependencies. Corporate services_ops currently cannot be accessed through the connected Supabase session. No new production schema or policy was created.

@@ -23,7 +23,14 @@
       ],
       "last_source_review": "2026-10-17",
       "last_commercial_verification": null,
-      "product_fact_snapshot": "2026-10-15"
+      "product_fact_snapshot": "2026-10-15",
+      "attribution": {
+        "offer_id": "TRAV-XTR",
+        "inquiry_path": "inquiry.html?offer=TRAV-XTR&source=services",
+        "mode": "CUSTOMER_DECLARED_EMAIL_METADATA",
+        "server_capture": "NOT_IMPLEMENTED",
+        "commercial_events": "No click, application, approval, sale, funding or commission inferred"
+      }
     },
     {
       "offer_id": "TRAV-J5",
@@ -45,7 +52,14 @@
       ],
       "last_source_review": "2026-10-17",
       "last_commercial_verification": null,
-      "product_fact_snapshot": "2026-10-15"
+      "product_fact_snapshot": "2026-10-15",
+      "attribution": {
+        "offer_id": "TRAV-J5",
+        "inquiry_path": "inquiry.html?offer=TRAV-J5&source=services",
+        "mode": "CUSTOMER_DECLARED_EMAIL_METADATA",
+        "server_capture": "NOT_IMPLEMENTED",
+        "commercial_events": "No click, application, approval, sale, funding or commission inferred"
+      }
     },
     {
       "offer_id": "TRAV-J4",
@@ -67,7 +81,14 @@
       ],
       "last_source_review": "2026-10-17",
       "last_commercial_verification": null,
-      "product_fact_snapshot": "2026-10-15"
+      "product_fact_snapshot": "2026-10-15",
+      "attribution": {
+        "offer_id": "TRAV-J4",
+        "inquiry_path": "inquiry.html?offer=TRAV-J4&source=services",
+        "mode": "CUSTOMER_DECLARED_EMAIL_METADATA",
+        "server_capture": "NOT_IMPLEMENTED",
+        "commercial_events": "No click, application, approval, sale, funding or commission inferred"
+      }
     },
     {
       "offer_id": "RPE-PBS",
@@ -89,7 +110,14 @@
       ],
       "last_source_review": "2026-10-17",
       "last_commercial_verification": null,
-      "product_fact_snapshot": null
+      "product_fact_snapshot": null,
+      "attribution": {
+        "offer_id": "RPE-PBS",
+        "inquiry_path": "inquiry.html?offer=RPE-PBS&source=services",
+        "mode": "CUSTOMER_DECLARED_EMAIL_METADATA",
+        "server_capture": "NOT_IMPLEMENTED",
+        "commercial_events": "No click, application, approval, sale, funding or commission inferred"
+      }
     },
     {
       "offer_id": "RPE-PNC",
@@ -111,7 +139,14 @@
       ],
       "last_source_review": "2026-10-17",
       "last_commercial_verification": null,
-      "product_fact_snapshot": null
+      "product_fact_snapshot": null,
+      "attribution": {
+        "offer_id": "RPE-PNC",
+        "inquiry_path": "inquiry.html?offer=RPE-PNC&source=services",
+        "mode": "CUSTOMER_DECLARED_EMAIL_METADATA",
+        "server_capture": "NOT_IMPLEMENTED",
+        "commercial_events": "No click, application, approval, sale, funding or commission inferred"
+      }
     },
     {
       "offer_id": "RPE-DIBANA",
@@ -133,7 +168,14 @@
       ],
       "last_source_review": "2026-10-17",
       "last_commercial_verification": null,
-      "product_fact_snapshot": null
+      "product_fact_snapshot": null,
+      "attribution": {
+        "offer_id": "RPE-DIBANA",
+        "inquiry_path": "inquiry.html?offer=RPE-DIBANA&source=services",
+        "mode": "CUSTOMER_DECLARED_EMAIL_METADATA",
+        "server_capture": "NOT_IMPLEMENTED",
+        "commercial_events": "No click, application, approval, sale, funding or commission inferred"
+      }
     }
   ]
 }

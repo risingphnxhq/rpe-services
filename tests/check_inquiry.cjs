@@ -1,0 +1,23 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const {prepare,offers}=require('../inquiry.js');
+const ref='RPE-WEB-12345678-1234-1234-1234-123456789abc';
+let count=0;const check=f=>{f();count++};
+check(()=>assert.throws(()=>prepare({offer:'RPE-PNC',message:'General funding question',consent:false},ref)));
+check(()=>assert.throws(()=>prepare({offer:'UNKNOWN',message:'General question',consent:true},ref)));
+check(()=>assert.throws(()=>prepare({offer:'RPE-PBS',message:'x',consent:true},ref)));
+check(()=>assert.throws(()=>prepare({offer:'RPE-PBS',message:'x'.repeat(1501),consent:true},ref)));
+check(()=>assert.throws(()=>prepare({offer:'RPE-PBS',message:'General question',consent:true},'BAD')));
+const input={offer:'RPE-PBS',message:'<img src=x> Please explain PBS\n& subject=test',consent:true,source:'customer@example.com'};
+const r=prepare(input,ref),url=new URL(r.mailto);
+check(()=>assert.equal(url.protocol,'mailto:'));
+check(()=>assert.equal(url.pathname,'contact@risingphoenixhq.com'));
+check(()=>assert.equal(url.searchParams.get('body'),r.body));
+check(()=>assert.match(r.body,/customer-declared, not verified attribution\): direct/));
+check(()=>assert.match(r.body,/not receipt, an application, an order or a sale/));
+check(()=>assert.match(r.body,/No partner sharing is authorized/));
+check(()=>assert.equal(r.ref,prepare(input,ref).ref));
+for(const o of JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../offer-catalog.json'))).offers){check(()=>assert.equal(offers[o.offer_id],o.name));check(()=>assert(o.attribution.inquiry_path.includes(o.offer_id)));}
+const source=fs.readFileSync(require('node:path').join(__dirname,'../inquiry.js'),'utf8');
+check(()=>assert(!/\b(fetch|localStorage|sessionStorage|innerHTML)\b/.test(source)));
+console.log('PASS: '+count+' inquiry validation, consent, safe encoding and catalog consistency checks');

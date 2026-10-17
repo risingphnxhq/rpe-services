@@ -49,6 +49,7 @@ for name in subprocess.check_output(['git','ls-tree','--name-only',BASE],cwd=roo
  def strip_changes(t):
   t=re.sub(r'<nav class="nav" aria-label="Services navigation">.*?</nav>','NAV',t,flags=re.S)
   t=re.sub(r'<style id="commercial-navigation">.*?</style>','',t,flags=re.S)
+  if name=='help.html':t=t.replace('<h2>Product and business-service inquiries</h2><p><a class="btn" href="inquiry.html">PREPARE A REFERENCED INQUIRY</a></p>','')
   if name=='index.html':t=re.sub(r'<section id="commercial-destinations".*?</section>','',t,flags=re.S)
   return t
  assert strip_changes(before)==strip_changes(after),name+' existing content changed'
